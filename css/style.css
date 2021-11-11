@@ -208,6 +208,20 @@ textarea{
     padding: 15px 0px;
 }
 
+.darkbg{
+    background: rgba(0, 0, 0, 0.849) url('../images/bg5.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.aboutImg img{
+   width: 65%; 
+    border-radius: 100px;
+}
+.aboutPadding{
+    padding:10px 9px;
+}
+
 @media only screen and (max-width:1140px){
     .nav-list{
         flex-direction: column;
@@ -241,5 +255,8 @@ textarea{
     }
     .first-section{
         height: 60vh;
+    }
+    .contact{
+        height: 54vh;
     }
 }
